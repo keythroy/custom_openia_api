@@ -26,15 +26,16 @@ git clone https://github.com/yourusername/custom_openia_api.git
 # Navigate to the project directory
 cd custom_openia_api
 
-# Create a venv and activate
-python3 python3 -m venv env_openia_api && source env_openia_api/bin/activate
-
-# Update pip
-pip install --upgrade pip
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the application
+echo "##### Create a venv and activate" &&
+python3 -m venv env_openai_api && source env_openai_api/bin/activate && 
+echo "##### Install dependencies" && 
+pip install -r requirements.txt && 
+echo "##### Upgrade openai" && 
+pip install --upgrade openai && 
+echo "##### Upgrade pip" && 
+pip install --upgrade pip && 
+echo "##### Run the application" && 
 python app.py
+
+
 ```
