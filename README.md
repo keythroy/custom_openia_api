@@ -15,13 +15,13 @@ Security and Privacy: All interactions with the database are secure, with data p
 
 This software is ideal for businesses, developers, and data analysts looking to enhance their database management with cutting-edge AI capabilities, making data interaction more efficient, accessible, and intelligent.
 
-## Instalation
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/custom_openia_api.git
-
-# Navigate to the project directory
+# Clone the repository and Navigate to the project directory
+git clone https://github.com/yourusername/custom_openia_api.git &&
 cd custom_openia_api
+
+# Create your env file 
+echo "OPENAI_API_KEY=YOUR_KEY" > .env # !!! change YOUR_KEY for your own OpenAI API KEY
 
 # Setup and run the project
 echo "##### Create a venv and activate" &&
