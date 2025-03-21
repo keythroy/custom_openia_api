@@ -16,9 +16,6 @@ Security and Privacy: All interactions with the database are secure, with data p
 This software is ideal for businesses, developers, and data analysts looking to enhance their database management with cutting-edge AI capabilities, making data interaction more efficient, accessible, and intelligent.
 
 ## Instalation
-
-To insert a block of code in a `.md` file, you can use triple backticks (```) to denote the start and end of the code block. Here's an example of how you can add installation instructions:
-
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/custom_openia_api.git
@@ -26,6 +23,7 @@ git clone https://github.com/yourusername/custom_openia_api.git
 # Navigate to the project directory
 cd custom_openia_api
 
+# Setup and run the project
 echo "##### Create a venv and activate" &&
 python3 -m venv env_openai_api && source env_openai_api/bin/activate && 
 echo "##### Install dependencies" && 
