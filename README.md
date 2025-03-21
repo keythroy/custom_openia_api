@@ -14,3 +14,27 @@ Customizable Integration: The software is designed to work with various local da
 Security and Privacy: All interactions with the database are secure, with data processed locally or through encrypted channels to maintain privacy.
 
 This software is ideal for businesses, developers, and data analysts looking to enhance their database management with cutting-edge AI capabilities, making data interaction more efficient, accessible, and intelligent.
+
+## Instalation
+
+To insert a block of code in a `.md` file, you can use triple backticks (```) to denote the start and end of the code block. Here's an example of how you can add installation instructions:
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/custom_openia_api.git
+
+# Navigate to the project directory
+cd custom_openia_api
+
+# Create a venv and activate
+python3 python3 -m venv env_openia_api && source env_openia_api/bin/activate
+
+# Update pip
+pip install --upgrade pip
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+python app.py
+```

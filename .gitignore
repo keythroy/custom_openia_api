@@ -1,3 +1,5 @@
+env_openai_api/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
